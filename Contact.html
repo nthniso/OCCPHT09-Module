@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<img src="https://freightconsult.com/wp-content/uploads/2017/10/contact-us-banner.jpg" alt="Banner">
+
+<body>
+<hr />
+
+<section id="forms">
+  
+    <form action="submit_page.php" method="post">
+        <h2>Fill out the fields to get in touch with us.</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="Name" id="Name" required />
+        <br><br>
+        <label for="E-mail Address">E-mail Address:</label>
+        <input type="text" name="E-mail Address" id="E-mail Address" required />
+        <br><br>
+        <label for="Phone">Phone Number:</label>
+        <input type="text" name="Phone" id="Phone" required />
+        <br><br>
+        
+        <label for="notified">Join our newsletter:</label>
+        <input type="checkbox" name="check" id="Sure!" value="Sure!">
+        <label for="Sure!">Sure!</label>
+        <input type="checkbox" name="check" id="No, thanks." value="No, thanks.">
+        <label for="No, thanks.">No, thanks.</label>
+        <br><br>
+        
+        <h3>Answer a short survey about your visit.</h3>
+
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" name="Gender" value="Male">Male 
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="other">Other:
+            <input type="text" name="gender-other" size="14">
+     
+        <br><br>
+
+        <label for="age">Day of visit:</label><br>
+        <select name="notified" id="notified" required>
+            <option value="Weekend">Weekend</option>
+            <option value="Weekday">Weekday</option>
+        </select>
+        <br><br>
+
+        Would you recommend our gallery to your friends?
+        <input type="checkbox" name="check" id="Absolutely!" value="Absolutely!">
+        <label for="Absolutely!">Absolutely!</label>
+        <input type="checkbox" name="check" id="Not for now." value="Not for now.">
+        <label for="Not for now.">Not for now.</label>
+        <br><br>
+
+        <label for="Suggestions">Suggestions:</label><br>
+        <textarea id="Suggestions" name="Suggestions" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+    <hr />
+
+    <footer id="links">
+      <h3>Visit our online gallery:</h3>
+      <ul>
+       <a href="https://artsandculture.google.com/streetview/mikhail-bulgakov-museum/sQFMSXyjKlbWHQ" target="_blank">Mikhail Bulgakov Museum</a>
+      </ul>
+    </footer>
+</body>
+</html>
