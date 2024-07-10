@@ -1,1 +1,1 @@
-# Hello, this is NiSo's repository!
+Hello, this is NiSo's repository!
